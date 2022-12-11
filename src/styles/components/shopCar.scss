@@ -1,0 +1,60 @@
+@use '../base/globales';
+
+.shopCarSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border-left: 1px solid #b3b3b3;
+
+    &__product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 0px 17px 3px #e9e8e8;
+
+        &__info {
+
+            display: flex;
+            align-items: center;
+
+            &__namePrice {
+                margin-left: 10px;
+            }
+
+            img {
+                width: 100px;
+                height: 80px;
+                object-fit: cover;
+            }
+        }
+
+        button {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            outline: none;
+            border: none;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0px 0px 1px 0px #949494;
+        }
+
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        border-top: 1px solid #b3b3b3;
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}
