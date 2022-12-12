@@ -22,6 +22,5 @@
     "gh-pages": "^4.0.0",
     "sass": "^1.56.1",
     "vite": "^3.2.3"
-  },
-  "homepage": "https://juan-bh.github.io/ReactContext_Practice"
+  }
 }
